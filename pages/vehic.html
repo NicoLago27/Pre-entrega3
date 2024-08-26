@@ -17,39 +17,37 @@
 
 <body>
     <header class="bg-light py-3">
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="../index.html">Transporte El Rayo</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/empresa.html">Empresa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/vehic.html">Vehículos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Transporte El Rayo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/empresa.html">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/vehic.html">Vehículos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
-    <main>
-        <h2>Vehiculos</h2>
+    <main class="container my-4">
+        <h2 class="mb-4">Vehículos</h2>
         <section>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolor, sapiente eius impedit commodi
                 possimus aliquam consectetur, unde omnis fugiat placeat tempore neque. Tempora autem illo perferendis
@@ -59,11 +57,45 @@
                 quam rerum, facere laborum quasi, repellendus quidem quia dignissimos ea! Nemo provident necessitatibus,
                 reprehenderit delectus dolorum, eos placeat debitis cupiditate explicabo expedita libero asperiores
                 eaque aut! Ipsam qui odit architecto officiis atque aspernatur. Ut, dicta iure!</p>
-            <h3>Tipo de vehiculos</h3>
-            <button>Sider</button>
-            <button>chasis y acoplados</button>
-            <button>Balancin</button>
-            <button>Camionetas</button>
+            <h3 class="mb-4">Tipo de vehículos</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Sider</h5>
+                            <p class="card-text">Descripción breve del tipo de vehículo Sider.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Chasis y Acoplados</h5>
+                            <p class="card-text">Descripción breve del tipo de vehículo Chasis y Acoplados.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Balancín</h5>
+                            <p class="card-text">Descripción breve del tipo de vehículo Balancín.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Camionetas</h5>
+                            <p class="card-text">Descripción breve del tipo de vehículo Camionetas.</p>
+                            <a href="#" class="btn btn-primary">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer class="bg-light text-center py-3">
@@ -71,7 +103,6 @@
         <p class="mb-0"><a href="#" class="link-dark">Todos los derechos reservados</a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>
