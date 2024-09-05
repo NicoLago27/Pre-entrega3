@@ -1,0 +1,41 @@
+// _base.scss
+@import 'variables';
+
+.navbar-brand {
+    color: $color-primary !important;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    font-weight: bold;
+    font-size: $font-size-large;
+}
+
+.container-fluid {
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $font-size-base;
+}
+
+main {
+    display: grid;
+    font-family: $font-secondary;
+}
+
+.navbar-nav {
+    .nav-link {
+        text-align: right;
+        margin-right: 5px;
+        color: $color-primary;
+        font-size: $font-size-small;
+    }
+}
+
+img.responsive {
+    width: auto;
+    max-height: 100%;
+}
+
+footer {
+    margin-bottom: 0;
+}
+  

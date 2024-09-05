@@ -1,0 +1,133 @@
+// _media.scss
+@import 'variables';
+@import 'grid';
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        font-size: $font-size-medium;
+        margin-top: 10px;
+    }
+
+    main {
+        margin: 50px 50px 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(28, 3rem);
+    }
+
+    .titulo {
+        grid-column: 1 / 5;
+        font-size: 30px;
+    }
+
+    .subtitulo {
+        grid-column: 1 / 5;
+        grid-row: 2/3;
+        font-size: 18px;
+    }
+
+    .texto, .texto2 {
+        font-size: 12px;
+    }
+
+    .img1, .carrusel {
+        grid-column: 1 / 5;
+    }
+    
+    .card1, .card2, .card3, .card4 {
+        height: 19rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar-brand {
+        font-size: 40px;
+        padding-right: 10px;
+        margin-left: 50px;
+    }
+
+    main {
+        margin: 50px 80px 10px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(16, 5rem);
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 30px;
+    }
+
+    .texto, .texto2 {
+        font-size: 15px;
+    }
+
+    .img1 {
+        grid-column: 4/7;
+    }
+
+    .carrusel {
+        grid-column: 2/6;
+    }
+    
+    .card1, .card2, .card3, .card4 {
+        width: 15rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar-brand {
+        margin: 20px 80px;
+    }
+
+    main {
+        margin: 50px 80px 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(16, 5rem);
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .subtitulo {
+        font-size: 30px;
+    }
+
+    .texto, .texto2 {
+        font-size: 18px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img1 {
+        grid-column: 7 / 10;
+    }
+
+    .galeria {
+        grid-column: 1 / 15;
+        font-size: 30px;
+    }
+
+    .carrusel {
+        grid-column: 4 / 12;
+        margin: 0 auto;
+    }
+
+    .card1, .card2, .card3, .card4 {
+        grid-row: 9 / 13;
+    }
+}
