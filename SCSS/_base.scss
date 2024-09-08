@@ -30,11 +30,24 @@ main {
     }
 }
 
-img.responsive {
+img .responsive {
     width: auto;
     max-height: 100%;
 }
-
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  .card-horizontal .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-horizontal .card-img {
+    width: 40%;
+    object-fit: cover; 
+  }
 footer {
     margin-bottom: 0;
 }
