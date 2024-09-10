@@ -23,14 +23,15 @@
         font-size: 30px;
     }
 
-    .subtitulo{
+    .subtitulo {
         grid-column: 1 / 5;
         grid-row: 2/3;
         font-size: 18px;
         text-align: center;
     }
 
-    .texto,.texto3 {
+    .texto,
+    .texto3 {
         font-size: 12px;
         grid-column: 1/6;
         grid-row: 3/5;
@@ -141,6 +142,7 @@
     .card-horizontal .card-img {
         width: 100%;
     }
+
     .subtitulo1 {
         grid-column: 1 / 5;
         grid-row: 2/3;
@@ -148,6 +150,7 @@
         text-align: center;
         margin-top: 3rem;
     }
+
     .contactos {
         grid-column: 1/5;
         grid-row: 3/5;
@@ -222,7 +225,7 @@
         grid-column: 1/3;
     }
 
-    .subtitulo{
+    .subtitulo {
         font-size: 30px;
         grid-column: 1/8;
         grid-row: 2/3;
@@ -300,7 +303,7 @@
         font-size: 15px;
     }
 
-    .subtitulo2, {
+    .subtitulo2 {
         font-size: 30px;
         grid-column: 1/8;
         grid-row: 8/9;
@@ -327,11 +330,13 @@
         grid-column: 1/5;
         grid-row: 9/12;
     }
+
     .subtitulo1 {
         font-size: 20px;
         grid-column: 1/5;
         grid-row: 2/3;
     }
+
     .contactos {
         grid-column: 1/5;
         grid-row: 3/5;
@@ -376,6 +381,7 @@
     }
 
 }
+
 
 /*Desktop*/
 @media only screen and (min-width: 1024px) {
