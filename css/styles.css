@@ -25,6 +25,13 @@ main {
   font-size: 20px;
 }
 
+.servicios {
+  color: rgb(29, 23, 120);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+}
+
 img .responsive {
   width: auto;
   max-height: 100%;
@@ -66,7 +73,7 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
-.grid-container .subtitulo, .grid-container .subtitulo2 {
+.grid-container .subtitulo, .grid-container .subtitulo2, .grid-container .subtitulo4, .grid-container .subtitulo1 {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 15px;
@@ -77,7 +84,7 @@ footer {
   margin-top: 1.5rem;
   text-align: center;
 }
-.grid-container .img1, .grid-container .img2, .grid-container .img3 .carrusel {
+.grid-container .img1, .grid-container .img2, .grid-container .img3, .grid-container .carrusel, .grid-container .mapa {
   max-width: 100%;
   margin: 0 auto;
 }
@@ -97,7 +104,7 @@ footer {
   margin: 0 auto;
   text-align: center;
 }
-.grid-container .subtitulo, .grid-container .subtitulo2 {
+.grid-container .subtitulo, .grid-container .subtitulo2, .grid-container .subtitulo4, .grid-container .subtitulo1 {
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 15px;
@@ -108,7 +115,7 @@ footer {
   margin-top: 1.5rem;
   text-align: center;
 }
-.grid-container .img1, .grid-container .img2, .grid-container .img3 .carrusel {
+.grid-container .img1, .grid-container .img2, .grid-container .img3, .grid-container .carrusel, .grid-container .mapa {
   max-width: 100%;
   margin: 0 auto;
 }
@@ -136,8 +143,7 @@ footer {
     font-size: 18px;
     text-align: center;
   }
-  .texto,
-  .texto3 {
+  .texto, .texto3 {
     font-size: 12px;
     grid-column: 1/6;
     grid-row: 3/5;
@@ -228,6 +234,57 @@ footer {
   }
   .card-horizontal .card-img {
     width: 100%;
+  }
+  .subtitulo1 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .contactos {
+    grid-column: 1/5;
+    grid-row: 3/5;
+    font-size: 15px;
+    text-align: center;
+  }
+  .subtitulo3 {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 3.5rem;
+  }
+  .redes {
+    grid-column: 1/5;
+    grid-row: 5/6;
+    font-size: 15px;
+    text-align: center;
+  }
+  .subtitulo4 {
+    grid-column: 1/5;
+    grid-row: 12/13;
+    padding-bottom: 5rem;
+    font-size: 15px;
+    text-align: center;
+  }
+  .mapa {
+    grid-column: 1/5;
+    grid-row: 13/16;
+  }
+  .mensaje {
+    grid-column: 1/5;
+    grid-row: 6/7;
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2.2Srem;
+  }
+  .formulario {
+    grid-column: 1/5;
+    grid-row: 7/11;
   }
 }
 /*Tablet*/
@@ -331,6 +388,47 @@ footer {
     grid-column: 1/5;
     grid-row: 9/12;
   }
+  .subtitulo1 {
+    font-size: 20px;
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+  .contactos {
+    grid-column: 1/5;
+    grid-row: 3/5;
+    font-size: 18px;
+  }
+  .subtitulo3 {
+    grid-column: 5/8;
+    grid-row: 2/3;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .redes {
+    grid-column: 5/8;
+    grid-row: 3/5;
+    font-size: 18px;
+  }
+  .subtitulo4 {
+    grid-column: 5/8;
+    grid-row: 5/6;
+    padding-bottom: 5rem;
+  }
+  .mapa {
+    grid-column: 5/9;
+    grid-row: 6/10;
+  }
+  .mensaje {
+    grid-column: 1/5;
+    grid-row: 5/6;
+    margin-top: 15px;
+  }
+  .formulario {
+    grid-column: 1/5;
+    grid-row: 6/13;
+  }
 }
 /*Desktop*/
 @media only screen and (min-width: 1024px) {
@@ -350,7 +448,8 @@ footer {
     grid-column: 2/4;
     grid-row: 1/2;
   }
-  .subtitulo {
+  .subtitulo,
+  .subtitulo1 {
     font-size: 30px;
     grid-column: 2/12;
     grid-row: 2/3;
@@ -435,6 +534,41 @@ footer {
     grid-column: 2/6;
     grid-row: 9/12;
     margin: 0 auto;
+  }
+  .contactos {
+    grid-column: 2/7;
+    grid-row: 3/5;
+    font-size: 20px;
+  }
+  .subtitulo3 {
+    grid-column: 2/6;
+    grid-row: 5/6;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  .redes {
+    grid-column: 2/7;
+    grid-row: 6/8;
+    font-size: 20px;
+  }
+  .subtitulo4 {
+    grid-column: 2/6;
+    grid-row: 8/9;
+    padding-bottom: 5rem;
+  }
+  .mapa {
+    grid-column: 2/7;
+    grid-row: 9/15;
+  }
+  .mensaje {
+    grid-column: 7/12;
+    grid-row: 2/3;
+    margin-top: 15px;
+  }
+  .formulario {
+    grid-column: 7/12;
+    grid-row: 3/11;
   }
 }
 

@@ -18,12 +18,12 @@
         text-align: center;
     }
 
-    .subtitulo, .subtitulo2 {
+    .subtitulo, .subtitulo2, .subtitulo4, .subtitulo1,  {
         text-transform: uppercase;
         font-weight: bold;
         margin-top: 15px;
     }
-    .galeria, .TipoDeVehiculo {
+    .galeria, .TipoDeVehiculo,{
         font-size: 20px;
         font-weight: bold;
         margin-top: 1.5rem;
@@ -31,7 +31,7 @@
     }
 
 
-    .img1, .img2, .img3 .carrusel {
+    .img1, .img2, .img3, .carrusel, .mapa {
         max-width: 100%;
         margin: 0 auto;
     }

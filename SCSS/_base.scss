@@ -29,6 +29,12 @@ main {
         font-size: $font-size-small;
     }
 }
+.servicios{
+    color: $color-primary;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+}
 
 img .responsive {
     width: auto;
@@ -48,7 +54,9 @@ img .responsive {
     width: 40%;
     object-fit: cover; 
   }
+
 footer {
     margin-bottom: 0;
 }
+
   
